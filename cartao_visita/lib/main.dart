@@ -9,24 +9,24 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.black54,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               CircleAvatar(
-                radius: 70,
+                radius: 80,
                 backgroundImage: AssetImage('images/me.jpeg'),
               ),
               Text(
                 'Mateus Alves', style: TextStyle(
                   fontFamily: 'Pacifico',
-                  color: Colors.white,
-                  fontSize: 25,
+                  color: Colors.black,
+                  fontSize: 35,
                   fontWeight: FontWeight.bold,
                   ),
               ),
-              Divider(color: Colors.white,),
+              Divider(color: Colors.black,),
               Row(   
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ],
               ),
-              Text('Chama no zap', 
+              Text('CONTATO PROFISSIONAL', 
                 style: TextStyle(
                   fontFamily: 'Roboto',
                   color: Colors.white,
@@ -65,7 +65,7 @@ class MyApp extends StatelessWidget {
       child: Icon(
         icon,
         color: Colors.black,
-        size: 40,
+        size: 45,
       ),
     );
   }
